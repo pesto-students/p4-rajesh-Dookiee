@@ -1,6 +1,5 @@
 header {
   background: #030303ab;
-
   width: 1420px;
   height: 200px;
   margin-left: 30px;
@@ -22,7 +21,13 @@ body {
 }
 
 ul li {
+  display: block;
+  padding: 16px 16px 16px 16px;
+}
+
+ul li span {
   display: inline-block;
+  width: 23%;
 }
 
 ul {
@@ -30,8 +35,10 @@ ul {
   width: 1420px;
   height: 200px;
   background: #ffffffff;
-  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
-  left: 30px;
+  left: 32px;
+  padding: 0px 0px 0px 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 li:nth-child(even) {
@@ -55,7 +62,7 @@ li:nth-child(even) {
   font-size: 20px;
 }
 
-.side-nav-icons {
+.side-nav {
   position: absolute;
   background: #f3f4f6ff;
   border-radius: 0px;
@@ -89,8 +96,9 @@ footer {
   width: 200px;
   height: 80px;
   font-size: 1em;
-  margin-left: 10px;
+  margin-left: 8px;
 }
+
 .sub-content {
   position: absolute;
   top: 60px;
@@ -154,4 +162,8 @@ footer {
 }
 .footsubcontent {
   margin-top: 30px;
+}
+
+.las.la-bars {
+  margin-top: 15px;
 }
