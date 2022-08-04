@@ -1,0 +1,169 @@
+header {
+  background: #030303ab;
+  width: 1420px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.font {
+  font-family: "Lato";
+}
+
+.track {
+  vertical-align: top;
+  padding-bottom: 100px;
+  margin-top: auto;
+}
+
+ul li {
+  display: block;
+  padding: 16px 16px 16px 16px;
+}
+
+ul li span {
+  display: inline-block;
+  width: 23%;
+}
+
+ul {
+  position: absolute;
+  width: 1420px;
+  height: 200px;
+  background: #ffffffff;
+  left: 32px;
+  padding: 0px 0px 0px 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+li:nth-child(even) {
+  background-color: #a9a9a9;
+  color: #fff;
+}
+
+.logo {
+  position: absolute;
+  border-radius: 4px;
+  height: 160px;
+  width: 150px;
+  padding: 20px 20px 20px 20px;
+}
+
+.content {
+  position: absolute;
+  top: 20px;
+  left: 240px;
+  color: white;
+  font-size: 20px;
+}
+
+.side-nav {
+  position: absolute;
+  background: #f3f4f6ff;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 600px;
+}
+
+footer {
+  position: fixed;
+  border-radius: 4px;
+  height: 60px;
+  width: 1420px;
+  padding: 10px 10px 10px 10px;
+  top: 600px;
+  background-color: #4069e5ff;
+}
+
+.footerlogo {
+  position: fixed;
+  border-radius: 4px;
+  height: 60px;
+  width: 60px;
+  padding: 10px 10px 10px 10px;
+  top: 600px;
+}
+
+.iconimg {
+  width: 200px;
+  height: 80px;
+  font-size: 1em;
+  margin-left: 8px;
+}
+
+.sub-content {
+  position: absolute;
+  top: 60px;
+  left: 240px;
+  color: white;
+  font-size: 10px;
+}
+.sub-contents {
+  position: absolute;
+  top: 70px;
+  left: 240px;
+  color: white;
+  font-size: 10px;
+}
+.icon {
+  position: absolute;
+  top: 150px;
+  left: 240px;
+  font-size: 16px;
+}
+.play {
+  left: 240px;
+  color: white;
+  font-size: 10px;
+}
+.plus {
+  left: 300px;
+  color: white;
+  font-size: 10px;
+}
+.ellipsis {
+  left: 370px;
+  color: white;
+  font-size: 10px;
+}
+.footericonimg {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  left: 600px;
+  margin-top: 20px;
+}
+.pause {
+  left: 800px;
+}
+.forward {
+  left: 1000px;
+}
+.redo {
+  left: 1200px;
+}
+.random {
+  left: 1400px;
+}
+.footercontent {
+  position: absolute;
+  left: 100px;
+  margin-top: 10px;
+  color: white;
+  font-size: 10px;
+}
+.footsubcontent {
+  margin-top: 30px;
+}
+
+.las.la-bars {
+  margin-top: 15px;
+}
